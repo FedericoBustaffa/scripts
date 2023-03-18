@@ -6,5 +6,7 @@ sudo apt autoremove
 sudo apt autoclean
 
 # upgrade pip packages and pip
+pip install --upgrade pip
+pip list --outdated --format=json > packages.json
 python3 pip_upgrade.py
 
