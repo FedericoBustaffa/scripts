@@ -9,4 +9,5 @@ sudo apt autoclean
 pip install --upgrade pip
 pip list --outdated --format=json > packages.json
 python3 pip_upgrade.py
+rm -rf packages.json
 
