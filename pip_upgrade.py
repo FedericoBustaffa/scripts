@@ -4,16 +4,18 @@ import subprocess
 
 def upgrade(package):
     subprocess.check_call([sys.executable, "-m", "pip", "install", "--upgrade", package])
-    print(f"{package} upgraded")
 
 
 if __name__ == "__main__":
 
-    file = open("packages.json")
-    data = json.load(file)
+    try:
+        file = open("~/scripts/packages.json")
+        data = json.load(file)
 
-    for i in data:
-        upgrade(i["name"])
+        for i in data:
+            upgrade(i["name"])
 
-    file.close()
+        file.close()
+    except FileNotFoundError:
+        print("All pip packages are up to date")
 
