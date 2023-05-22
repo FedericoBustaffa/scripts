@@ -1,7 +1,7 @@
 #!/usr/bin/zsh
 
 cp -r /home/federico/.config/i3/ /home/federico/rices/
-cp -r /home/federico/.config/polybar/
-cp -r /home/federico/.config/picom/
-cp -r /home/federico/.config/rofi/
-cp -r /home/federico/.config/nvim/
+cp -r /home/federico/.config/polybar/ /home/federico/rices/
+cp -r /home/federico/.config/picom/ /home/federico/rices/
+cp -r /home/federico/.config/rofi/ /home/federico/rices/
+cp -r /home/federico/.config/nvim/ /home/federico/rices/
