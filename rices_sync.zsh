@@ -3,6 +3,9 @@
 # terminal
 cp -r /home/federico/rices/alacritty/	/home/federico/.config/
 
+# wallpapers
+cp -r /home/federico/rices/wallpapers/	/home/federico/wallpapers/
+
 # i3
 cp -r /home/federico/rices/i3/ 			/home/federico/.config/
 cp -r /home/federico/rices/polybar/ 	/home/federico/.config/
