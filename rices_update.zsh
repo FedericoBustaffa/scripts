@@ -16,7 +16,6 @@ cp -r /home/federico/.config/rofi/ 			/home/federico/rices/
 
 # neovim
 cp -r /home/federico/.config/nvim/	 		/home/federico/rices/
-cp -r /home/federico/.config/coc/ 			/home/federico/rices/
 
 # hyprland
 cp -r /home/federico/.config/hypr/ 			/home/federico/rices/
