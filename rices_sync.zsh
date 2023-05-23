@@ -4,7 +4,7 @@
 cp -r /home/federico/rices/alacritty/	/home/federico/.config/
 
 # wallpapers
-cp -r /home/federico/rices/wallpapers/	/home/federico/wallpapers/
+cp -r /home/federico/rices/wallpapers/	/home/federico/.config/
 
 # i3
 cp -r /home/federico/rices/i3/ 			/home/federico/.config/
