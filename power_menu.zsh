@@ -5,6 +5,6 @@ chosen=$(printf "Spegni\nRiavvia\nBlocca" | rofi -dmenu)
 case "$chosen" in
 	"Spegni") poweroff ;;
 	"Riavvia") reboot ;;
-	"Blocca") lock.sh ;;
+	"Blocca") /home/federico/scripts/lock.sh ;;
 	*) exit 1 ;;
 esac
